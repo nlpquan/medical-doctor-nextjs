@@ -1,0 +1,3 @@
+- Fix root layout section
+- Set NavLink for navigation between pages
+- Set Nav Active Link when on that page

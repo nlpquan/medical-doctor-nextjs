@@ -1,0 +1,36 @@
+export interface Doctor {
+  id?: string;
+  npi: string;
+  indPacId: string;
+  indEnrlId: string;
+  lastName: string;
+  firstName: string;
+  middleName: string;
+  suff: string;
+  gndr: string;
+  cred: string;
+  medSch: string;
+  grdYr: number; 
+  priSpec: string;
+  secSpec1: string;
+  secSpec2: string;
+  secSpec3: string;
+  secSpec4: string;
+  secSpecAll: string;
+  telehlth: string;
+  facilityName: string;
+  orgPacId: string;
+  numOrgMem: number; 
+  adrLn1: string;
+  adrLn2: string;
+  ln2Sprs: string;
+  cityTown: string;
+  state: string;
+  zipCode: string;
+  telephoneNum: string;
+  indAssgn: string;
+  grpAssgn: string;
+  adrsId: string;
+  createdAt: string; 
+  updatedAt: string; 
+}
